@@ -1,0 +1,9 @@
+C:\Users\daniel.donevski\Desktop\InternExercises\FootballManager\FootballManager\bin\Debug\FootballManager.exe.config
+C:\Users\daniel.donevski\Desktop\InternExercises\FootballManager\FootballManager\bin\Debug\FootballManager.exe
+C:\Users\daniel.donevski\Desktop\InternExercises\FootballManager\FootballManager\bin\Debug\FootballManager.pdb
+C:\Users\daniel.donevski\Desktop\InternExercises\FootballManager\FootballManager\obj\Debug\FootballManager.csprojResolveAssemblyReference.cache
+C:\Users\daniel.donevski\Desktop\InternExercises\FootballManager\FootballManager\obj\Debug\FootballManager.exe
+C:\Users\daniel.donevski\Desktop\InternExercises\FootballManager\FootballManager\obj\Debug\FootballManager.pdb
+C:\Users\daniel.donevski\Source\Repos\MMFootballManager\FootballManager\FootballManager\bin\Debug\FootballManager.exe.config
+C:\Users\daniel.donevski\Source\Repos\MMFootballManager\FootballManager\FootballManager\obj\Debug\FootballManager.exe
+C:\Users\daniel.donevski\Source\Repos\MMFootballManager\FootballManager\FootballManager\obj\Debug\FootballManager.pdb
