@@ -10,14 +10,33 @@ namespace FootballManager
     {
         static void Main(string[] args)
         {
-            Coach ivan = new Coach();
-            ivan.AddPlayer(new Goalkeeper("Daniel", "Donevski", 12));
-            foreach (var item in ivan.team)
+
+            Console.Write("Write your name: ");
+            string name = Console.ReadLine();
+
+            Coach coach = new Coach(name);
+          
+            coach.AddPlayer(new Goalkeeper("Daniel", "Donevski", 13));
+            coach.AddPlayer(new Defender("Petko","Stoyanov",4));
+            coach.AddPlayer(new Midfielder("Ivan", "Stanchev", 10));
+            coach.AddPlayer(new Forward("Stefan", "Staynov", 7));
+
+            Random r = new Random();
+
+            foreach (var player in coach.Team)
             {
-                item.Train(new TimeSpan(10,0,0));
-                Console.WriteLine(item.SkillRating);
+
+                int i = r.Next(10, 100);
+                player.Train(new TimeSpan(i,0,0));
             }
-            
+
+            foreach (var player in coach.Team)
+            {
+                Console.WriteLine(player);
+
+            }
+
+            Console.WriteLine("---------------------");
         }
     }
 }

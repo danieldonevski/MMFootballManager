@@ -46,6 +46,7 @@
     <Compile Include="Defender.cs" />
     <Compile Include="Forward.cs" />
     <Compile Include="Goalkeeper.cs" />
+    <Compile Include="ITrainable.cs" />
     <Compile Include="Midfielder.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
